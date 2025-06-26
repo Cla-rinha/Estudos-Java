@@ -1,6 +1,7 @@
 public class NumerosPrimitivos {
 
     public static void main(String[] args) {
+
         //Valores Principais
         int myNum = 5;               // Numero inteiro
         float myFloatNum = 5.99f;    // Numero com virgula
@@ -33,6 +34,20 @@ public class NumerosPrimitivos {
 
         double myDouble = 19.99d;
         System.out.println(myDouble);
+
+        //Valores de Verdadeiro ou Falso
+        boolean isJavaFun = true;
+        boolean isFishTasty = false;
+        System.out.println(isJavaFun);
+        System.out.println(isFishTasty);
+
+        //Valor Unico
+        char myGrade = 'B';
+        System.out.println(myGrade);
+
+        //Valor de texto
+        String myString = "Olá Mundo!";
+        System.out.println(myString);
 
     }
 }
